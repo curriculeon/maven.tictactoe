@@ -24,6 +24,7 @@ public class PlayerTies1Test {
     @Test
     public void getWinnerTest() {
         // Given
+        setup();
         String expectedWinner = "";
 
         // When
