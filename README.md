@@ -19,11 +19,13 @@
 
 #### Part 1 - Forking the Project
 * To _fork_ the project, click the `Fork` button located at the top right of the project.
+* `Done`
 
 
 #### Part 2 - Navigating to _forked_ Repository
 * Navigate to your github profile to find the _newly forked repository_.
 * Copy the URL of the project to the clipboard.
+* `Done`
 
 #### Part 3 - Cloning _forked_ repository
 * Clone the repository from **your account** into the `~/dev` directory.
@@ -33,6 +35,7 @@
     * `cd ~/dev`
   * clone the project by executing the following command:
     * `git clone https://github.com/MYUSERNAME/NAMEOFPROJECT`
+* `Done`
 
 #### Part 4 - Check Build
 * Ensure that the tests run upon opening the project.
