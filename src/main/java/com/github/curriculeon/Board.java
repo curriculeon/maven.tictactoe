@@ -70,11 +70,22 @@ public class Board {
     }
 
     public Boolean isTie() {
-        return null;
+        return !isInFavorOfX() && !isInFavorOfO();
+
     }
 
     public String getWinner() {
-          return null;
+       String winner = "";
+        if (isInFavorOfO()){
+            winner = "O";
+        }
+        else if (isInFavorOfX()){
+            winner = "X";
+        }
+        else {
+            winner = "";
+        }
+          return winner;
     }
 
     public Boolean hasSameElement(char item, Character[] row){
